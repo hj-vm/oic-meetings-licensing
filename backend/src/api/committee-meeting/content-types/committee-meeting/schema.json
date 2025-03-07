@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "committee_meetings",
+  "info": {
+    "singularName": "committee-meeting",
+    "pluralName": "committee-meetings",
+    "displayName": "committee-meeting"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "Time": {
+      "type": "time"
+    },
+    "CommitteeType": {
+      "type": "enumeration",
+      "enum": [
+        "Asset Management Sub-committee",
+        "College Management Council Sub-committee",
+        "Community Development Fund Sub-committee",
+        "Development and Infrastructure Committee",
+        "Education, Leisure and Housing Committee",
+        "General Meeting of the Council",
+        "Harbour Authority Sub-committee",
+        "Human Resources Sub-committee",
+        "IJB Performance and Audit Committee",
+        "Integration Joint Board",
+        "Investments Sub-committee",
+        "Licensing Committee",
+        "Local Review Body",
+        "Monitoring and Audit Committee",
+        "Orkney and Shetland Valuation Joint Board",
+        "Orkney Health and Care Committee",
+        "Orkney Islands Area Licensing Board",
+        "Orkney Local Licensing Forum",
+        "Orkney Towns Board",
+        "Pension Fund Sub-committee with Pension Board",
+        "Planning Committee",
+        "Police and Fire Sub-committee",
+        "Policy and Resources Committee",
+        "St Magnus Cathedral Sub-committee"
+      ]
+    },
+    "Downloads": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Body": {
+      "type": "blocks"
+    }
+  }
+}

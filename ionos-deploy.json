@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "deploy": {
+    "name": "orkney-council-meetings-site",
+    "runtime": "nodejs18",
+    "buildCommand": "npm run install:all && npm run build",
+    "startCommand": "npm start",
+    "environment": {
+      "NODE_ENV": "production",
+      "PORT": "8080"
+    }
+  }
+}

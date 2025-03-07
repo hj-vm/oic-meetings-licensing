@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "licensing_notices",
+  "info": {
+    "singularName": "licensing-notice",
+    "pluralName": "licensing-notices",
+    "displayName": "licensing-notice",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Body": {
+      "type": "blocks"
+    }
+  }
+}
